@@ -3,7 +3,7 @@ Attempts to obfuscate the purpose of a thread by modifying the entry point of th
 
 How does this work?
 
-Main.cpp contains a simple function that modifies the thread memory to change how the thread executes.
+Thread-Misdirection.cpp contains a simple method that modifies the thread memory to change how the thread executes.
 
 Why should I use it?
 
