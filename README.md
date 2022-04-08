@@ -10,10 +10,12 @@ Why should I use it?
 It makes reverse engineering of your binary harder all while not killing performance too greatly. In its most basic usage found within this repo, it makes IDA believe that the 'fake call' would be executed.
 
 
-https://i.imgur.com/QGLtsCe.png
+![main-ida](https://user-images.githubusercontent.com/103238186/162438728-10298ad2-71c1-4261-9129-5a0d6dd0c523.png)
 
-https://i.imgur.com/zwlIIKs.png
 
-With more complex functions, the removal of debug information, a pass with your favourite packer of choice and a dedicated system to implement this with more fake function pointers it could prove to be an invaluable tool to hinder the work of reverse engineers. 
+![sub-ida](https://user-images.githubusercontent.com/103238186/162438776-b51c176f-634f-4955-a240-12f697313dd8.png)
+
+
+With more complex functions, the removal of debug information, a pass with your favourite packer and a dedicated system to implement this with more fake function pointers, it could prove to be an invaluable tool to hinder the work of reverse engineers. 
 
 
